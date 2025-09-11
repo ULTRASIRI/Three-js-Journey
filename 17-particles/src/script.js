@@ -141,7 +141,7 @@ const tick = () =>
         const x = particleGeometry.attributes.position.array[i3]
         // const z = particleGeometry.attributes.position.array[i3+2]
 
-        particleGeometry.attributes.position.array[i3 + 1]= Math.sin(elapsedTime + x)  //waves
+        particleGeometry.attributes.position.array[i3 + 1]= Math.sin(elapsedTime + x)   //waves
     }
 
     particleGeometry.attributes.position.needsUpdate=true
