@@ -1,7 +1,6 @@
 // uniform mat4 projectionMatrix; ////////clip space co-ordiates transformations
 // uniform mat4 viewMatrix; ////relative to camera transformations
 // uniform mat4 modelMatrix;  ////relative to mesh transformations
-
 // attribute vec3 position;  ////vec3
 attribute float aRandom;
 uniform vec2 uFrequency;
