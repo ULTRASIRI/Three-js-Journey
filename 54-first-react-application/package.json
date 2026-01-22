@@ -1,0 +1,19 @@
+{
+  "name": "threejs-journey-exercise",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3",
+    "vite": "^6.2.2",
+    "vite-plugin-restart": "^0.4.2"
+  },
+  "dependencies": {
+    "react": "19.0",
+    "react-dom": "19.0"
+  }
+}
