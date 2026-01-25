@@ -11,6 +11,7 @@ export default function Clicker()
             // setCount(savedCount)
         }, [])
 
+        
     useEffect (() =>
     {
         localStorage.setItem('count',count)
